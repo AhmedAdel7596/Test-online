@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.home
+{
+    width: 100%;
+    height: 100vh;
+background-image: url(./image/p2.jpg);
+background-size: 100% 100%;
+}
+
+.home .nav {
+    background-color: rgba(66, 30, 148, 0.1);
+    overflow: auto;
+
+}
+
+.home . nav ol 
+{
+
+ list-style-type: none; 
+
+}
+
+.home .nav ol li{
+    list-style-type: none; 
+    float: right;
+    margin: 10px;
+    padding: 20px ;
+}
+.home .nav ol li a {
+
+    color:blue ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home .nav ol li img 
+{
+    width: 90px;
+}
+
+.home .nav ol li img.logo { 
+    float: left;
+}
+
+.home .caption
+ {
+padding: 400px 400px 110px;
+
+}
+
+/* end home */
+
+.about {
+
+    background-color:  rgb(245, 44, 9);
+    padding: 100px;
+}
+
+.about .about-header { 
+
+    background-color: blue;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.about .about-header h1{
+
+    background-color:  green;
+    
+}
